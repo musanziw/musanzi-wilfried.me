@@ -10,6 +10,22 @@ export const metadata: Metadata = {
     title: `Wilfried Musanzi — Web Developer`,
     description: 'Wilfried Musanzi | Fullstack JavaScript Developer',
     keywords: 'Wilfried Musanzi, Wilfried, Musanzi, Web Developer, JavaScript, React, Next.js, Node.js, TailwindCSS, TypeScript, Lubumbashi, DRC',
+    openGraph: {
+        siteName: 'Wilfried Musanzi — Portfolio',
+        type: 'website',
+        locale: 'en_US',
+        url: 'https://musanzi-wilfried.me',
+        title: 'Wilfried Musanzi — Web Developer',
+        description: 'Wilfried Musanzi | Fullstack JavaScript Developer',
+        images: [
+            {
+                url: 'https://musanzi-wilfried.me/me.webp',
+                width: 1200,
+                height: 630,
+                alt: 'Wilfried Musanzi — Fullstack JavaScript Developer',
+            },
+        ]
+    }
 }
 
 export default function RootLayout({
