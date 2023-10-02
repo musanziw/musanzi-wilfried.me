@@ -22,15 +22,19 @@ export default function Hero() {
             </div>
 
             <div className="flex flex-col">
-                <div className="w-[7rem] h-[7rem] rounded-full mt-1 overflow-hidden mb-5">
-                    <Image src={me} className={"rounded-sm grayscale"} alt="Musazi's picture"/>
+                <div className="flex flex-col md:flex-row md:items-center justify-between">
+                    <div className="w-[7rem] h-[7rem] rounded-full mt-1 overflow-hidden mb-5">
+                        <Image src={me} className={"rounded-sm grayscale"} alt="Musazi's picture"/>
+                    </div>
+                    <div className="">
+                        <h1 className={"text-xl font-extrabold text-zinc-950 dark:text-white mb-1"}>
+                            Hey, I&lsquo;m Wilfried Musanzi
+                        </h1>
+                        <h1 className={"text-lg font-semibold  text-zinc-950 dark:text-white"}>
+                            Fullsatck JavaScript developer
+                        </h1>
+                    </div>
                 </div>
-                <h1 className={"text-2xl font-extrabold text-zinc-950 dark:text-white mb-2"}>
-                    Hey, I&lsquo;m Wilfried Musanzi
-                </h1>
-                <h1 className={"text-lg text-zinc-950 dark:text-white"}>
-                    Fullsatck JavaScript developer
-                </h1>
                 <p className={'mt-5'}>
                     I have been working in the tech industry for the past three years. I am an enthusiast of
                     JavaScript
