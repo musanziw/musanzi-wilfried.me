@@ -16,7 +16,7 @@ export const ThemeSwitcher = () => {
     return (
         <>
             {
-                theme === 'light' ? (
+                isDark ? (
                     <span className={'cursor-pointer group'} onClick={toggleTheme}>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                              className="bi bi-brightness-high-fill h-6 w-6"
