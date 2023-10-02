@@ -7,7 +7,7 @@ import React from "react";
 const dmSans = DM_Sans({subsets: ['latin']})
 
 export const metadata: Metadata = {
-    title: `Wilfried Musanzi — Web Developer`,
+    title: `Wilfried Musanzi — Portfolio`,
     description: 'Wilfried Musanzi | Fullstack JavaScript Developer',
     keywords: 'Wilfried Musanzi, Wilfried, Musanzi, Web Developer, JavaScript, React, Next.js, Node.js, TailwindCSS, TypeScript, Lubumbashi, DRC',
     openGraph: {
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
             {
                 url: 'https://musanzi-wilfried.me/me.webp',
                 width: 1200,
-                height: 630,
+                height: 680,
                 alt: 'Wilfried Musanzi — Fullstack JavaScript Developer',
             },
         ]
