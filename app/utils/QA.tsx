@@ -5,8 +5,8 @@ interface QAProps {
 
 export default function QA({question, answer}: QAProps) {
     return (
-        <div className={'flex flex-col mb-4'}>
-            <div className={'flex items-center justify-between mb-2'}>
+        <div className={'flex flex-col gap-1'}>
+            <div className={'flex items-center justify-between'}>
                 <h4 className={'font-medium text-zinc-950 dark:text-white '}>
                     {question}
                 </h4>
