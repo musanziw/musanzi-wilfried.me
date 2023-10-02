@@ -2,6 +2,7 @@ import './globals.css'
 import type {Metadata} from 'next'
 import {DM_Sans} from 'next/font/google'
 import React from "react";
+import {ThemeProvider} from "@/app/hooks/themeProviders";
 
 
 const dmSans = DM_Sans({subsets: ['latin']})
@@ -43,7 +44,9 @@ export default function RootLayout({
         <html lang="en">
         <body
             className={`bg-neutral-50 text-zinc-900 ${dmSans.className} dark:bg-zinc-950 dark:text-neutral-100 transition-colors ease-in duration-100`}>
-        {children}
+        <ThemeProvider attribute={'class'} defaultTheme={'system'} enableSystem>
+            {children}
+        </ThemeProvider>
         </body>
         </html>
     )

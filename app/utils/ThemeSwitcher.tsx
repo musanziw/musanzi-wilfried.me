@@ -1,20 +1,22 @@
 import {useState} from "react";
-import useDarkSide from "../hooks/useDarkSilde";
+import {useTheme} from "next-themes";
 
-export default function Switcher() {
-    const [colorTheme, setTheme] = useDarkSide();
-    const [darkSide, setDarkSide] = useState<boolean>(colorTheme === "light");
+export const ThemeSwitcher = () => {
+    const {theme, setTheme} = useTheme();
+    const [isDark, setIsDark] = useState(
+        theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)
+    );
 
-    const toggleDarkMode = () => {
-        setTheme(colorTheme)
-        setDarkSide(!darkSide)
-    };
+    function toggleTheme() {
+        setIsDark(!isDark);
+        setTheme(isDark ? "light" : "dark");
+    }
 
     return (
         <>
             {
-                darkSide ? (
-                    <span className={'cursor-pointer group'} onClick={toggleDarkMode}>
+                theme === 'dark' ? (
+                    <span className={'cursor-pointer group'} onClick={toggleTheme}>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                              className="bi bi-brightness-high-fill h-6 w-6"
                              viewBox="0 0 16 16">
@@ -23,7 +25,7 @@ export default function Switcher() {
                         </svg>
                     </span>
                 ) : (
-                    <span className={'cursor-pointer group'} onClick={toggleDarkMode}>
+                    <span className={'cursor-pointer group'} onClick={toggleTheme}>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                                  className="bi bi-moon-fill h-5 w-5"
                                  viewBox="0 0 16 16">
@@ -34,5 +36,4 @@ export default function Switcher() {
             }
         </>
     )
-
-}
+};
