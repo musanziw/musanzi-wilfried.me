@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="px-8 mb-16 pt-6 md:pl-0 flex flex-col items-center justify-center w-full md:w-2/3 lg:w-1/3">
             <div
                 className={`flex items-center justify-between mb-20 w-full`}>
-                    <h1 className={'uppercase font-bold text-2xl dark:text-white text-zinc-950'}>m.</h1>
+                    <h1 className={'uppercase font-bold text-xl dark:text-white text-zinc-950'}>m.</h1>
                     <div className="flex items-center gap-4">
                         <a href="https://github.com/musanziw" target={'_blank'}>
                             <svg xmlns="http://www.w3.org/2000/svg"
