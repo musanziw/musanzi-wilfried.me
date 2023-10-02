@@ -1,4 +1,5 @@
 import Heading from "../utils/Heading";
+import Link from "next/link";
 
 export default function Contact() {
     return (
@@ -6,8 +7,8 @@ export default function Contact() {
             <Heading label={"Then, what's next ?"} sublabel={"Social links"}/>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-5">
                 <li className={"text-sm"}>
-                    <a href={'https://t.me/musanziw'}
-                       className={'flex items-center gap-4 bg-neutral-500/10 rounded-xl px-3 py-3 hover:bg-zinc-700/10 transition-colors duration-300 dark:bg-zinc-500/10 dark:hover:bg-zinc-200/10'}>
+                    <Link href={'https://t.me/musanziw'}
+                          className={'flex items-center gap-4 bg-neutral-500/10 rounded-xl px-3 py-3 hover:bg-zinc-700/10 transition-colors duration-300 dark:bg-zinc-500/10 dark:hover:bg-zinc-200/10'}>
                         <svg xmlns="http://www.w3.org/2000/svg"
                              className="bi bi-telegram w-6 h-6 fill-zinc-950 dark:fill-white"
                              viewBox="0 0 16 16">
@@ -24,13 +25,12 @@ export default function Contact() {
                             </p>
 
                         </div>
-                    </a>
+                    </Link>
                 </li>
 
                 <li className={"text-sm"}>
-                    <a href={'https://medium.com/@musanziwilfried'}
-                       target={'_blank'}
-                       className={'flex items-center gap-4 bg-neutral-500/10 rounded-xl px-3 py-3 hover:bg-zinc-700/10 transition-colors duration-300 dark:bg-zinc-500/10 dark:hover:bg-zinc-200/10'}>
+                    <Link href={'https://medium.com/@musanziwilfried'} target={'_blank'}
+                          className={'flex items-center gap-4 bg-neutral-500/10 rounded-xl px-3 py-3 hover:bg-zinc-700/10 transition-colors duration-300 dark:bg-zinc-500/10 dark:hover:bg-zinc-200/10'}>
                         <svg xmlns="http://www.w3.org/2000/svg"
                              className="bi bi-medium w-6 h-6 fill-zinc-950 dark:fill-white" viewBox="0 0 16 16">
                             <path
@@ -44,12 +44,12 @@ export default function Contact() {
                                 musanziwilfried
                             </p>
                         </div>
-                    </a>
+                    </Link>
                 </li>
 
                 <li className={"text-sm"}>
-                    <a href={'https://linkedin.com/in/wilfried-musanzi-197381205'}
-                       className={'flex items-center gap-4 bg-neutral-500/10 rounded-xl px-3 py-3 hover:bg-zinc-700/10 transition-colors duration-300 dark:bg-zinc-500/10 dark:hover:bg-zinc-200/10'}>
+                    <Link href={'https://linkedin.com/in/wilfried-musanzi-197381205'}
+                          className={'flex items-center gap-4 bg-neutral-500/10 rounded-xl px-3 py-3 hover:bg-zinc-700/10 transition-colors duration-300 dark:bg-zinc-500/10 dark:hover:bg-zinc-200/10'}>
                         <svg xmlns="http://www.w3.org/2000/svg"
                              className="bi bi-linkedin w-5 h-6 fill-zinc-950 dark:fill-white"
                              viewBox="0 0 16 16">
@@ -64,12 +64,12 @@ export default function Contact() {
                                 wilfried-musanzi
                             </p>
                         </div>
-                    </a>
+                    </Link>
                 </li>
 
                 <li className={"text-sm"}>
-                    <a href={'tel:+243979265726'}
-                       className={'flex items-center gap-4 bg-neutral-500/10 rounded-xl px-3 py-3 hover:bg-zinc-700/10 transition-colors duration-300 dark:bg-zinc-500/10 dark:hover:bg-zinc-200/10'}>
+                    <Link href={'tel:+243979265726'}
+                          className={'flex items-center gap-4 bg-neutral-500/10 rounded-xl px-3 py-3 hover:bg-zinc-700/10 transition-colors duration-300 dark:bg-zinc-500/10 dark:hover:bg-zinc-200/10'}>
                         <svg xmlns="http://www.w3.org/2000/svg"
                              className="bi bi-telephone w-4 h-5 fill-zinc-950 dark:fill-white"
                              viewBox="0 0 16 16">
@@ -84,7 +84,7 @@ export default function Contact() {
                                 +243 97 926 5726
                             </p>
                         </div>
-                    </a>
+                    </Link>
                 </li>
             </ul>
         </div>
