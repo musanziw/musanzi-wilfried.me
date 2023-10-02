@@ -14,7 +14,7 @@ export default function Switcher() {
         <>
             {
                 darkSide ? (
-                    <span className={'cursor-pointer group'} onClick={() => toggleDarkMode()}>
+                    <span className={'cursor-pointer group'} onClick={toggleDarkMode}>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                              className="bi bi-brightness-high-fill h-6 w-6"
                              viewBox="0 0 16 16">
@@ -23,7 +23,7 @@ export default function Switcher() {
                         </svg>
                     </span>
                 ) : (
-                    <span className={'cursor-pointer group'} onClick={() => toggleDarkMode()}>
+                    <span className={'cursor-pointer group'} onClick={toggleDarkMode}>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                                  className="bi bi-moon-fill h-5 w-5"
                                  viewBox="0 0 16 16">
