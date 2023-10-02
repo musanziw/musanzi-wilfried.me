@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "next": "latest",
-    "next-reveal": "^1.0.6",
     "react": "latest",
     "react-dom": "latest",
     "react-toggle-dark-mode": "latest"
