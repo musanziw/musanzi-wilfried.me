@@ -1,7 +1,5 @@
 import Heading from "../utils/Heading";
 import ProjectCard from "../utils/ProjectCard";
-import {Fade} from "react-awesome-reveal";
-import {useState} from "react";
 
 export default function Project() {
     return (

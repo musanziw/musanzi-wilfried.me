@@ -1,14 +1,15 @@
 import Heading from "../utils/Heading";
-import {Fade} from "react-awesome-reveal";
+import {RevealList, RevealWrapper} from "next-reveal";
 
 export default function Contact() {
     return (
         <div className={'p-8 mb-5 md:p-0 w-full md:w-2/3 lg:w-1/3'}>
-            {/*<Fade direction={"up"} triggerOnce={true}>*/}
+            <RevealWrapper origin={'bottom'}>
                 <Heading label={"Then, what's next ?"} sublabel={"Social links"}/>
-            {/*</Fade>*/}
-            <ul className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                {/*<Fade direction={"up"} triggerOnce={true} cascade={true} damping={0.1}>*/}
+            </RevealWrapper>
+            <RevealList interval={100} delay={100} origin={'right'}>
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-5">
+
                     <li className={"text-sm"}>
                         <a href={'https://t.me/musanziw'}
                            className={'flex items-center gap-4 bg-neutral-500/10 rounded-xl px-3 py-3 hover:bg-zinc-700/10 transition-colors duration-300 dark:bg-zinc-500/10 dark:hover:bg-zinc-200/10'}>
@@ -35,8 +36,10 @@ export default function Contact() {
                         <a href={'https://medium.com/@musanziwilfried'}
                            target={'_blank'}
                            className={'flex items-center gap-4 bg-neutral-500/10 rounded-xl px-3 py-3 hover:bg-zinc-700/10 transition-colors duration-300 dark:bg-zinc-500/10 dark:hover:bg-zinc-200/10'}>
-                            <svg xmlns="http://www.w3.org/2000/svg" className="bi bi-medium w-6 h-6 fill-zinc-950 dark:fill-white" viewBox="0 0 16 16">
-                                <path d="M9.025 8c0 2.485-2.02 4.5-4.513 4.5A4.506 4.506 0 0 1 0 8c0-2.486 2.02-4.5 4.512-4.5A4.506 4.506 0 0 1 9.025 8zm4.95 0c0 2.34-1.01 4.236-2.256 4.236-1.246 0-2.256-1.897-2.256-4.236 0-2.34 1.01-4.236 2.256-4.236 1.246 0 2.256 1.897 2.256 4.236zM16 8c0 2.096-.355 3.795-.794 3.795-.438 0-.793-1.7-.793-3.795 0-2.096.355-3.795.794-3.795.438 0 .793 1.699.793 3.795z"/>
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 className="bi bi-medium w-6 h-6 fill-zinc-950 dark:fill-white" viewBox="0 0 16 16">
+                                <path
+                                    d="M9.025 8c0 2.485-2.02 4.5-4.513 4.5A4.506 4.506 0 0 1 0 8c0-2.486 2.02-4.5 4.512-4.5A4.506 4.506 0 0 1 9.025 8zm4.95 0c0 2.34-1.01 4.236-2.256 4.236-1.246 0-2.256-1.897-2.256-4.236 0-2.34 1.01-4.236 2.256-4.236 1.246 0 2.256 1.897 2.256 4.236zM16 8c0 2.096-.355 3.795-.794 3.795-.438 0-.793-1.7-.793-3.795 0-2.096.355-3.795.794-3.795.438 0 .793 1.699.793 3.795z"/>
                             </svg>
                             <div className="flex flex-col gap-1">
                                 <h5 className={"text-zinc-950 dark:text-white"}>
@@ -88,8 +91,9 @@ export default function Contact() {
                             </div>
                         </a>
                     </li>
-                {/*</Fade>*/}
-            </ul>
+                </ul>
+            </RevealList>
+
         </div>
     )
 }

@@ -1,19 +1,19 @@
 import db from '@/app/images/db.png'
 import Heading from "../utils/Heading";
-import {Fade} from "react-awesome-reveal";
 import Image from "next/image";
+import {RevealList, RevealWrapper} from "next-reveal";
 
 export default function Services() {
     return (
         <div className={'p-8 md:p-0 mb-16 w-full md:w-2/3 lg:w-1/3'}>
-            {/*<Fade direction={"up"} triggerOnce={true} duration={1000}>*/}
+            <RevealWrapper>
                 <Heading label={"My Skills"} sublabel={"Services"}/>
-            {/*</Fade>*/}
+            </RevealWrapper>
 
             <div className="grid grid-cols-1 gap-5 items-center">
-                {/*<Fade direction={"up"} triggerOnce={true} cascade={true} damping={0.1}>*/}
+                <RevealList interval={200} delay={50} origin={'bottom'}>
                     <div
-                        className="flex justify-between items-center  py-4 pr-10 pl-4 rounded-2xl bg-neutral-400/10 hover:bg-zinc-500/10 transition-colors duration-100 dark:bg-zinc-400/10 dark:hover:bg-zinc-600/10">
+                        className="flex justify-between items-center mb-5 py-4 pr-10 pl-4 rounded-2xl bg-neutral-400/10 hover:bg-zinc-500/10 transition-colors duration-100 dark:bg-zinc-400/10 dark:hover:bg-zinc-600/10">
                         <div className="flex items-center gap-3">
                             <svg xmlns="http://www.w3.org/2000/svg"
                                  viewBox="0 0 40 40" className={"w-6 h-4"}>
@@ -50,7 +50,7 @@ export default function Services() {
 
 
                     <div
-                        className="flex justify-between items-center bg-neutral-400/10 py-4 pr-10 pl-4 rounded-2xl hover:bg-zinc-500/10 transition-colors duration-100 dark:bg-zinc-400/10 dark:hover:bg-zinc-600/10">
+                        className="flex justify-between items-center mb-5 bg-neutral-400/10 py-4 pr-10 pl-4 rounded-2xl hover:bg-zinc-500/10 transition-colors duration-100 dark:bg-zinc-400/10 dark:hover:bg-zinc-600/10">
                         <div className="flex items-center gap-1">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                                  viewBox="0 0 48 48" className={"w-10 h-6"}>
@@ -82,7 +82,7 @@ export default function Services() {
                         </div>
                         <p className="text-xs justify-items-end">UML & Merise</p>
                     </div>
-                {/*</Fade>*/}
+                </RevealList>
             </div>
         </div>
     )
