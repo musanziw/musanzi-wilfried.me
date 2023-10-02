@@ -1,11 +1,11 @@
 'use client'
 import {useState} from "react";
-import {useTheme} from "next-themes";
+import useDarkSide from "@/app/hooks/useDarkSilde";
 
 export const ThemeSwitcher = () => {
-    const {theme, setTheme} = useTheme();
+    const [theme, setTheme] = useDarkSide();
     const [isDark, setIsDark] = useState(
-        theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)
+        theme === "dark"
     );
 
     function toggleTheme() {
@@ -16,7 +16,7 @@ export const ThemeSwitcher = () => {
     return (
         <>
             {
-                theme === 'dark' ? (
+                theme === 'light' ? (
                     <span className={'cursor-pointer group'} onClick={toggleTheme}>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                              className="bi bi-brightness-high-fill h-6 w-6"

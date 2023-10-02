@@ -11,7 +11,7 @@ export default function Hero() {
                 className={`flex items-center justify-between mb-20 w-full`}>
                 <h1 className={'uppercase font-bold text-xl dark:text-white text-zinc-950'}>m.</h1>
                 <div className="flex items-center gap-5">
-                    <Link href={"https://github.com/musanziw"} target={'_blank'}>
+                    <Link href={"https://github.com/musanziw"} target={'_blank'} aria-label={'Github link'}>
                         <svg xmlns="http://www.w3.org/2000/svg"
                              className="bi bi-github w-6 h-6 fill-zinc-950 dark:fill-white" viewBox="0 0 16 16">
                             <path

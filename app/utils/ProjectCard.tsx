@@ -10,20 +10,20 @@ export default function ProjectCard({title, resume, goals, tools, position}: Pro
     return (
         <div
             className="flex flex-col gap-2">
-            <h4 className={"font-semibold text-zinc-950 dark:text-white"}>
+            <p className={"font-semibold text-zinc-950 dark:text-white"}>
                 {title}
-            </h4>
+            </p>
             <p className={"text-sm leading-5 mb-2"}>
                 {resume}
             </p>
             {
                 <>
-                    <h5 className={"font-semibold text-zinc-950 dark:text-white"}>
+                    <p className={"font-semibold text-zinc-950 dark:text-white"}>
                         Position held : <span className={'font-medium text-sm'}>{position}</span>
-                    </h5>
-                    <h5 className={"font-semibold text-zinc-950 dark:text-white mt-3"}>
+                    </p>
+                    <p className={"font-semibold text-zinc-950 dark:text-white mt-3"}>
                         Goals
-                    </h5>
+                    </p>
                     <ul className="flex flex-col gap-1">
                         {goals.map((goal, index) => (
                             <li
@@ -38,9 +38,9 @@ export default function ProjectCard({title, resume, goals, tools, position}: Pro
                             </li>
                         ))}
                     </ul>
-                    <h5 className={"font-semibold text-zinc-950 dark:text-white mt-3"}>
+                    <p className={"font-semibold text-zinc-950 dark:text-white mt-3"}>
                         Tools
-                    </h5>
+                    </p>
                     <div className="flex flex-wrap gap-2">
                         {tools.map((tool, index) => (
                             <span key={index}
