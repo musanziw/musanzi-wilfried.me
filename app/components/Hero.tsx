@@ -1,7 +1,6 @@
 import React from "react";
 import me from '@/app/images/me.webp'
 import Switcher from "../utils/Switcher";
-import Heading from "../utils/Heading";
 import Image from "next/image";
 
 export default function Hero() {
@@ -23,14 +22,13 @@ export default function Hero() {
             </div>
 
             <div className="flex flex-col">
-                    <div className="flex items-center justify-between mb-10">
-                        <Heading label={"About Me"} sublabel={"Profile"}/>
-                        <div className="w-[6rem] h-[6rem] rounded-full mt-1 overflow-hidden">
+                    <div className="flex items-center justify-start mb-10">
+                        <div className="w-[8rem] h-[8rem] rounded-full mt-1 overflow-hidden">
                             <Image src={me} className={"rounded-sm grayscale"} alt="Musazi's picture"/>
                         </div>
                     </div>
                     <h1 className={"text-2xl font-bold text-zinc-950 dark:text-white"}>
-                        Hey, I&lsquo;m Wilfried Musanzi, I&lsquo;m a fullsatck JavaScript developer.
+                        Hey, I&lsquo;m Wilfried Musanzi, a fullsatck JavaScript developer.
                     </h1>
                     <p className={'mt-6'}>
                         I have been working in the tech industry for the past three years. I am an enthusiast of
