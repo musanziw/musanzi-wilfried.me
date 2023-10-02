@@ -4,7 +4,7 @@ type Theme = "dark" | "light";
 
 export default function useDarkSide(): [Theme, (theme: Theme) => void] {
     const [theme, setTheme] = useState<Theme>(
-        typeof window !== "undefined" ? localStorage.theme as Theme || "dark" : "dark"
+        typeof window !== "undefined" ? localStorage.theme as Theme || "dark" : "light"
     );
 
     const colorTheme: Theme = theme === "dark" ? "light" : "dark";
