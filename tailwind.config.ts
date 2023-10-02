@@ -7,12 +7,7 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        'inter': ['"Work Sans"', '"sans-serif"'],
-        'outfit': ['"Outfit"', '"sans-serif"'],
-      },
-    },
+    extend: {},
   },
   darkMode: 'class',
   plugins: [],
