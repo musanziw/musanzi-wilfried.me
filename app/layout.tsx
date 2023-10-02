@@ -20,11 +20,17 @@ export const metadata: Metadata = {
         images: [
             {
                 url: 'https://musanzi-wilfried.me/me.webp',
-                width: 900,
-                height: 700,
+                width: 800,
+                height: 600,
                 alt: 'Wilfried Musanzi — Fullstack JavaScript Developer',
             },
-        ]
+            {
+                url: 'https://musanzi-wilfried.me/me.webp',
+                width: 1800,
+                height: 1600,
+                alt: 'Wilfried Musanzi — Fullstack JavaScript Developer',
+            },
+        ],
     }
 }
 
