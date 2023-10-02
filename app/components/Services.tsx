@@ -40,7 +40,7 @@ export default function Services() {
                         </svg>
                         <p className={"font-semibold text-zinc-900 dark:text-white"}> Frontend</p>
                     </div>
-                    <p className="text-xs justify-items-end">ReactJS & NextJS</p>
+                    <p className="text-xs justify-items-end">NextJS</p>
                 </div>
 
 
@@ -66,7 +66,7 @@ export default function Services() {
                         </svg>
                         <p className={"font-semibold text-zinc-900 dark:text-white"}>Backend</p>
                     </div>
-                    <p className="text-xs justify-items-end">Express & NestJS</p>
+                    <p className="text-xs justify-items-end">NestJS</p>
                 </div>
 
                 <div
@@ -75,7 +75,7 @@ export default function Services() {
                         <Image src={db} className={'w-5 h-5'} alt="database--v1"/>
                         <p className={"font-semibold text-zinc-900 dark:text-white"}>Modeling</p>
                     </div>
-                    <p className="text-xs justify-items-end">UML & Merise</p>
+                    <p className="text-xs justify-items-end">Agiles</p>
                 </div>
             </div>
         </div>
