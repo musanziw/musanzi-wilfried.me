@@ -1,13 +1,13 @@
-import { useState, useEffect } from "react";
+import {useState, useEffect} from "react";
 
 type Theme = "dark" | "light";
 
 export default function useDarkSide(): [Theme, (theme: Theme) => void] {
     const [theme, setTheme] = useState<Theme>(
-        typeof window !== "undefined" ? localStorage.theme as Theme || "dark" : "light"
+        typeof window !== "undefined" ? localStorage.theme as Theme || "light" : "dark"
     );
 
-    const colorTheme: Theme = theme === "dark" ? "light" : "dark";
+    const colorTheme: Theme = theme === "light" ? "dark" : "light";
 
     useEffect(() => {
         const root = window.document.documentElement;
