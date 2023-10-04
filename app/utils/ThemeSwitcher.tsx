@@ -1,6 +1,6 @@
 'use client';
 import {useEffect, useState} from "react";
-import { DarkModeSwitch } from "react-toggle-dark-mode";
+import {DarkModeSwitch} from "react-toggle-dark-mode";
 import useDarkSide from "@/app/hooks/useDarkSilde";
 
 export default function ThemeSwitcher() {
