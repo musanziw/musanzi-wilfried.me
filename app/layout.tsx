@@ -8,7 +8,7 @@ const dmSans = DM_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
     title: 'Wilfried Musanzi — Portfolio',
-    description: 'Wilfried Musanzi | Fullstack JavaScript Developer',
+    description: 'Fullstack JavaScript Developer • NextJs • NestJs',
     keywords: 'Wilfried Musanzi',
 }
 
