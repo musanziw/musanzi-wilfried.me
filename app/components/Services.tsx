@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Services() {
     return (
         <div className={'p-8 md:p-0 mb-16 w-full md:w-2/3 lg:w-1/3'}>
-            <Heading label={"My Skills"} sublabel={"Services"}/>
+            <Heading title={"My Skills"} subtitle={"Services"}/>
             <div className="grid grid-cols-1 gap-5 items-center">
                 <div
                     className="flex justify-between items-center  py-4 pr-10 pl-4 rounded-2xl bg-neutral-400/10 hover:bg-zinc-500/10 transition-colors duration-100 dark:bg-zinc-400/10 dark:hover:bg-zinc-600/10">

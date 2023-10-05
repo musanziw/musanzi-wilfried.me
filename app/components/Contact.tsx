@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Contact() {
     return (
         <div className={'p-8 mb-5 md:p-0 w-full md:w-2/3 lg:w-1/3'}>
-            <Heading label={"Then, what's next ?"} sublabel={"Social links"}/>
+            <Heading title={"Then, what's next ?"} subtitle={"Social links"}/>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-5">
                 <li className={"text-sm"}>
                     <Link href={'https://t.me/musanziw'}

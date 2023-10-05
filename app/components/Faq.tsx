@@ -4,7 +4,7 @@ import QA from "../utils/QA";
 export default function Faq() {
     return (
         <div className={'p-8 md:p-0 mb-10 md:w-2/3 lg:w-1/3'}>
-            <Heading label={"Frequently Asked questions"} sublabel={"Questions/answers"}/>
+            <Heading title={"Frequently Asked questions"} subtitle={"Questions/answers"}/>
             <div className="flex flex-col gap-5">
                 <QA question={"What is your availability ?"}
                     answer={"I am available for full-time work, I am also open to part-time or contract work."}

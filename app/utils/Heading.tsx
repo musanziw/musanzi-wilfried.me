@@ -1,13 +1,13 @@
 interface HeadingProps {
-    label: string,
-    sublabel: string
+    title: string,
+    subtitle: string
 }
 
-export default function Heading({label, sublabel}: HeadingProps) {
+export default function Heading({title, subtitle}: HeadingProps) {
     return (
         <h2 className="flex flex-col gap-1 pt-3 font-semibold mb-8 text-zinc-950 dark:text-white">
-            {label}
-            <span className="text-xs uppercase font-medium dark:text-neutral-100">{sublabel}</span>
+            {title}
+            <span className="text-sm capitalize font-medium dark:text-neutral-100">{subtitle}</span>
         </h2>
     )
 }

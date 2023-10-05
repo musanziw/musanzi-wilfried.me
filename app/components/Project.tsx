@@ -4,7 +4,7 @@ import ProjectCard from "../utils/ProjectCard";
 export default function Project() {
     return (
         <div className={"p-8 md:p-0 mb-16 md:w-2/3 lg:w-1/3"}>
-            <Heading label={"Recent Projects"} sublabel={'My work'}/>
+            <Heading title={"Recent Projects"} subtitle={'My work'}/>
             <div className="flex flex-col items-center gap-10">
                 <ProjectCard
                     title={"Agricultural Workforce Management System"}

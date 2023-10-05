@@ -13,10 +13,10 @@ export default function Hero() {
         <div className="px-8 mb-16 pt-6 md:pl-0 flex flex-col items-center justify-center w-full md:w-2/3 lg:w-1/3">
             <div
                 className={`flex items-center justify-between mb-20 w-full`}>
-                <h1 className={`relative ${oswald.className} uppercase font-bold dark:text-white text-zinc-950 before:inline-block before:absolute before:top-0 before:bg-red-400 before:h-full before:w-[2px] before:-ml-1`}>
+                <h1 className={`relative ${oswald.className} uppercase dark:text-white text-zinc-950 before:inline-block before:absolute before:top-0 before:bg-red-400 before:h-full before:w-[2px] before:-ml-1`}>
                     Wilfried <br /> Musanzi
                 </h1>
-                <div className="flex items-center gap-5">
+                <div className="flex items-center gap-4">
                     <Link href={"https://github.com/musanziw"} target={'_blank'} aria-label={'Github link'}>
                         <svg xmlns="http://www.w3.org/2000/svg"
                             className="bi bi-github w-6 h-5 fill-current" viewBox="0 0 16 16">
@@ -37,7 +37,7 @@ export default function Hero() {
                         <h1 className={`text-xl font-extrabold text-zinc-950 dark:text-white mb-1`}>
                             Hey, I&lsquo;m Wilfried Musanzi
                         </h1>
-                        <h1 className={`font-semibold uppercase text-xs text-stone-600 dark:text-neutral-200`}>
+                        <h1 className={`font-semibold ${oswald.className} text-stone-600 dark:text-neutral-200`}>
                             Fullsatck JavaScript developer
                         </h1>
                     </div>
