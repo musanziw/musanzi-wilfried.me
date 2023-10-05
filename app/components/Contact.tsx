@@ -2,6 +2,7 @@ import Heading from "../utils/Heading";
 import Link from "next/link";
 
 export default function Contact() {
+
     return (
         <div className={'p-8 mb-5 md:p-0 w-full md:w-2/3 lg:w-1/3'}>
             <Heading title={"Then, what's next ?"} subtitle={"Social links"}/>
