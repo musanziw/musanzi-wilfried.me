@@ -34,7 +34,7 @@ export default function Hero() {
                     </div>
                     <div className="">
                         <h1 className={`text-2xl font-extrabold text-zinc-950 dark:text-white mb-1`}>
-                            Hey, I&lsquo;m Wilfried Musanzi
+                            Hey, I&lsquo;m <strong>Wilfried Musanzi</strong>
                         </h1>
                         <h1 className={`font-semibold text-lg text-stone-600 dark:text-neutral-200`}>
                             Fullsatck JavaScript developer
@@ -44,7 +44,7 @@ export default function Hero() {
                 <p className={'mt-5'}>
                     I have been working in the tech industry for the past three years.
                     I am an enthusiast of  JavaScript  technologies and I am proficient in a variety of engineering tools.
-                    I&lsquo;m also a continue learner in online workshop and events.
+                    I&lsquo;m also a continuous learner through online and local events and workshop.
                 </p>
             </div>
         </div>
