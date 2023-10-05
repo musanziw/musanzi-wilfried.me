@@ -1,16 +1,23 @@
 ## Portfolio V1
 
-Welcome to my portfolio! Here you can find examples of my work as a developer, including projects I've completed and skills I've developed. I'm passionate about creating innovative solutions to complex problems, and I'm always looking for new challenges to tackle.
 
-Take a look around and see what I've been working on. If you have any questions or would like to discuss a potential project, feel free to reach out to me. I'm always happy to chat with fellow developers and explore new opportunities.
+### Clone the repo
 
-Thanks for stopping by!
+```bash
+git clone https://github.com/musanziw/portfolio--v1.git
+```
 
-## Getting Started
+### Install dependencies
 
-To install this app, you will need to have [Node.js](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/) installed on your computer. Once you have those installed, you can run the following command to install the app:
+```bash
+yarn install
+# or 
+npm install
+# or
+pnpm install
+```
 
-First, run the development server:
+### Run dev server
 
 ```bash
 npm run dev
@@ -18,11 +25,19 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### Build for production
+```bash
+npm run build
+# or
+yarn build
+# or
+pnpm build
+```
+
 
 ### Contributing
 If you would like to contribute to this app, please open an issue or submit a pull request.
