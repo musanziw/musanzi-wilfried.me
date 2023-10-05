@@ -4,11 +4,11 @@ import Image from "next/image";
 
 export default function Services() {
     return (
-        <div className={'p-8 md:p-0 mb-16 w-full md:w-2/3 lg:w-1/3'}>
+        <div className={'p-8 md:p-0 mb-16 w-full md:w-3/4 lg:w-2/5'}>
             <Heading title={"My Skills"} subtitle={"Services"}/>
             <div className="grid grid-cols-1 gap-5 items-center">
                 <div
-                    className="flex justify-between items-center  py-4 pr-10 pl-4 rounded-2xl bg-neutral-400/10 hover:bg-zinc-500/10 transition-colors duration-100 dark:bg-zinc-400/10 dark:hover:bg-zinc-600/10">
+                    className="flex justify-between items-center py-4 pr-10 pl-4 rounded-2xl bg-neutral-600/10 hover:bg-zinc-700/10 transition-colors duration-100 dark:bg-zinc-200/10 dark:hover:bg-zinc-400/10">
                     <div className="flex items-center gap-3">
                         <svg xmlns="http://www.w3.org/2000/svg"
                              viewBox="0 0 40 40" className={"w-6 h-4"}>
@@ -38,14 +38,14 @@ export default function Services() {
                                     d="M27.599,36.997C27.599,36.997,27.599,36.997,27.599,36.997c-4.187-0.001-10.224-5.327-14.681-12.953 C9.036,17.401,7.227,10.5,8.308,6.463c0.372-1.39,1.065-2.383,2.062-2.952C10.964,3.172,11.647,3,12.4,3 c4.185,0,10.221,5.328,14.679,12.956c3.883,6.642,5.692,13.543,4.61,17.582c-0.371,1.389-1.064,2.381-2.059,2.948 C29.036,36.825,28.353,36.997,27.599,36.997z M12.4,4c-0.577,0-1.094,0.128-1.535,0.379c-0.756,0.432-1.291,1.219-1.592,2.342 c-0.999,3.734,0.813,10.493,4.508,16.818C18,30.757,23.812,35.996,27.599,35.997l0,0c0.578,0,1.095-0.128,1.536-0.38 c0.754-0.43,1.289-1.217,1.589-2.338c1-3.735-0.812-10.494-4.508-16.818C21.996,9.241,16.187,4,12.4,4z"></path>
                             </g>
                         </svg>
-                        <p className={"font-semibold text-xs uppercase text-zinc-900 dark:text-white"}> Frontend</p>
+                        <p className={"font-semibold text-zinc-900 dark:text-white"}> Frontend</p>
                     </div>
                     <p className="text-xs justify-items-end">NextJS</p>
                 </div>
 
 
                 <div
-                    className="flex justify-between items-center bg-neutral-400/10 py-4 pr-10 pl-4 rounded-2xl hover:bg-zinc-500/10 transition-colors duration-100 dark:bg-zinc-400/10 dark:hover:bg-zinc-600/10">
+                    className="flex justify-between items-center  py-4 pr-10 pl-4 rounded-2xl bg-neutral-600/10 hover:bg-zinc-700/10 transition-colors duration-100 dark:bg-zinc-200/10 dark:hover:bg-zinc-400/10">
                     <div className="flex items-center gap-1">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                              viewBox="0 0 48 48" className={"w-10 h-6"}>
@@ -64,18 +64,18 @@ export default function Services() {
                                 fill="#37474f"
                                 d="M47.703 21.791l-4.906-2.715C42.705 19.025 42.602 19 42.5 19c-.102 0-.205.025-.297.076h.001l-4.907 2.715C37.114 21.892 37 22.084 37 22.294v5.411c0 .209.114.402.297.503l4.908 2.717c.184.102.409.102.593 0l2.263-1.253c.207-.115.206-.412-.002-.526l-4.924-2.687C40.052 26.412 40 26.325 40 26.231v-2.466c0-.092.05-.177.13-.221l2.235-1.236h-.001c.042-.023.088-.034.135-.034.047 0 .093.012.135.034l2.235 1.237c.08.044.13.129.13.221v2.012c0 .086.046.166.121.209.075.042.167.042.242-.001l2.398-1.393c.148-.086.24-.245.24-.417v-1.88C48 22.085 47.886 21.892 47.703 21.791zM10.703 21.791l-4.906-2.715C5.705 19.025 5.602 19 5.5 19c-.102 0-.205.025-.297.076h.001l-4.907 2.715C.114 21.892 0 22.084 0 22.294v7.465c0 .086.046.166.121.209.075.042.167.042.242-.001l2.398-1.393C2.909 28.488 3 28.329 3 28.157v-4.393c0-.092.05-.177.13-.221l2.235-1.236H5.365c.042-.023.088-.034.135-.034.047 0 .093.012.135.034l2.235 1.237C7.95 23.588 8 23.673 8 23.765v4.393c0 .172.091.331.24.417l2.398 1.393c.075.043.167.043.242.001C10.954 29.925 11 29.845 11 29.759v-7.464C11 22.085 10.886 21.892 10.703 21.791z"></path>
                         </svg>
-                        <p className={"font-semibold text-xs uppercase text-zinc-900 dark:text-white"}>Backend</p>
+                        <p className={"font-semibold text-zinc-900 dark:text-white"}>Backend</p>
                     </div>
                     <p className="text-xs justify-items-end">NestJS</p>
                 </div>
 
                 <div
-                    className="flex justify-between items-center bg-neutral-400/10 py-4 pr-10 pl-4 rounded-2xl hover:bg-zinc-500/10 transition-colors duration-100 dark:bg-zinc-400/10 dark:hover:bg-zinc-600/10">
+                    className="flex justify-between items-center  py-4 pr-10 pl-4 rounded-2xl bg-neutral-600/10 hover:bg-zinc-700/10 transition-colors duration-100 dark:bg-zinc-200/10 dark:hover:bg-zinc-400/10">
                     <div className="flex items-center gap-6">
                         <Image src={db} className={'w-5 h-5'} alt="database--v1"/>
-                        <p className={"font-semibold text-xs uppercase  text-zinc-900 dark:text-white"}>Modeling</p>
+                        <p className={"font-semibold text-zinc-900 dark:text-white"}>Modeling</p>
                     </div>
-                    <p className="text-xs justify-items-end">Agiles</p>
+                    <p className="text-xs justify-items-end">UML</p>
                 </div>
             </div>
         </div>

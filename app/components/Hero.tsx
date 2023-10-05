@@ -8,7 +8,7 @@ const oswald = Oswald({subsets: ['latin']})
 
 export default function Hero() {
     return (
-        <div className="px-8 mb-16 pt-6 md:pl-0 flex flex-col items-center justify-center w-full md:w-2/3 lg:w-1/3">
+        <div className="px-8 mb-16 pt-6 md:pl-0 flex flex-col items-center justify-center w-full md:w-3/4 lg:w-2/5">
             <div
                 className={`flex items-center justify-between mb-20 w-full`}>
                 <h1 className={`relative ${oswald.className} font-semibold text-sm uppercase dark:text-white text-zinc-950 before:inline-block before:absolute before:top-0 before:bg-red-400 before:h-full before:w-[2px] before:-ml-1.5`}>
@@ -33,7 +33,7 @@ export default function Hero() {
                         <Image src={me} className={"rounded-sm grayscale"} alt="Musazi's picture"/>
                     </div>
                     <div className="">
-                        <h1 className={`text-xl font-extrabold text-zinc-950 dark:text-white mb-1`}>
+                        <h1 className={`text-2xl font-extrabold text-zinc-950 dark:text-white mb-1`}>
                             Hey, I&lsquo;m Wilfried Musanzi
                         </h1>
                         <h1 className={`font-semibold text-lg text-stone-600 dark:text-neutral-200`}>
@@ -42,9 +42,9 @@ export default function Hero() {
                     </div>
                 </div>
                 <p className={'mt-5'}>
-                    I have been working in the tech industry for the past three years. I am an enthusiast of
-                    JavaScript
-                    technologies and I am proficient in a variety of engineering tools.
+                    I have been working in the tech industry for the past three years.
+                    I am an enthusiast of  JavaScript  technologies and I am proficient in a variety of engineering tools.
+                    I&lsquo;m also a continue learner in online workshop and events.
                 </p>
             </div>
         </div>

@@ -2,10 +2,9 @@ interface ProjectCardProps {
     title: string;
     resume: string;
     tools: string[];
-    position: string;
 }
 
-export default function ProjectCard({title, resume, tools, position}: ProjectCardProps) {
+export default function ProjectCard({title, resume, tools}: ProjectCardProps) {
     return (
         <div
             className="flex flex-col gap-2">
@@ -17,9 +16,6 @@ export default function ProjectCard({title, resume, tools, position}: ProjectCar
             </p>
             {
                 <>
-                    <p className={"font-semibold text-zinc-950 dark:text-white"}>
-                        Position held : <span className={'font-medium text-sm'}>{position}</span>
-                    </p>
                     <p className={"font-semibold text-zinc-950 dark:text-white mt-3"}>
                         Tools
                     </p>
