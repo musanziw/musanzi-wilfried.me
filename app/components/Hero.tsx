@@ -11,9 +11,8 @@ export default function Hero() {
         <div className="px-8 mb-16 pt-6 md:pl-0 flex flex-col items-center justify-center w-full md:w-3/4 lg:w-2/5">
             <div
                 className={`flex items-center justify-between mb-20 w-full`}>
-                <h1 className={`relative ${oswald.className} font-semibold text-sm uppercase dark:text-white text-zinc-950 before:inline-block before:absolute before:top-0 before:bg-red-400 before:h-full before:w-[2px] before:-ml-1.5`}>
-                    Wilfried Musanzi <br/>
-                    Portfolio &copy; 2023
+                <h1 className={`relative ${oswald.className} font-semibold text-sm uppercase dark:text-white text-zinc-950`}>
+                    By Musanzi &copy; 2023
                 </h1>
                 <div className="flex items-center gap-3">
                     <Link href={"https://github.com/musanziw"} target={'_blank'} aria-label={'Github link'}>
@@ -28,7 +27,7 @@ export default function Hero() {
             </div>
 
             <div className="flex flex-col">
-                <div className="flex flex-col md:flex-row md:items-center justify-between">
+                <div className="flex flex-col">
                     <div className="w-[7rem] h-[7rem] rounded-full mt-1 overflow-hidden mb-5">
                         <Image src={me} className={"rounded-sm grayscale"} alt="Musazi's picture"/>
                     </div>
@@ -36,7 +35,7 @@ export default function Hero() {
                         <h1 className={`text-2xl font-extrabold text-zinc-950 dark:text-white mb-1`}>
                             Hey, I&lsquo;m <strong>Wilfried Musanzi</strong>
                         </h1>
-                        <h1 className={`font-semibold text-lg text-stone-600 dark:text-neutral-200`}>
+                        <h1 className={`font-semibold text-xl text-stone-600 dark:text-neutral-200`}>
                             Fullsatck JavaScript developer
                         </h1>
                     </div>
