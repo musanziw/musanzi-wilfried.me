@@ -11,8 +11,8 @@ export default function Hero() {
         <div className="px-8 mb-16 pt-6 md:pl-0 flex flex-col items-center justify-center w-full md:w-3/4 lg:w-2/5">
             <div
                 className={`flex items-center justify-between mb-20 w-full`}>
-                <h1 className={`relative ${oswald.className} font-semibold text-sm uppercase dark:text-white text-zinc-950`}>
-                    By Musanzi &copy; 2023
+                <h1 className={`relative ${oswald.className} font-semibold uppercase dark:text-white text-zinc-700`}>
+                    {new Date().getFullYear()} &copy; Wilfried
                 </h1>
                 <div className="flex items-center gap-3">
                     <Link href={"https://github.com/musanziw"} target={'_blank'} aria-label={'Github link'}>
