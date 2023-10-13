@@ -21,22 +21,8 @@ pnpm dev
 
 ### Build for production
 ```bash
-npm run build
-# or
-yarn build
-# or
 pnpm build
+
+# And run
+pnpm start
 ```
-
-
-### Contributing
-If you would like to contribute to this app, please open an issue or submit a pull request.
-
-### License
-
-This app is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-
-Feel free to customize it to fit your specific needs. Let me know if you have any questions!
-
-
