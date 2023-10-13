@@ -8,24 +8,24 @@ export default function Project() {
             <div className="flex flex-col items-center gap-10">
                 <ProjectCard
                     link={"https://github.com/musanziw/"}
-                    title={"Nanny link - API"}
+                    title={"Nanny link - api"}
                     resume={"A Restful API built with NestJS. This API is used to power the NannyLink web application, providing a secure and reliable backend for the platform. The API is hosted on a dedicated server."}
                 />
 
                 <ProjectCard
                     link={"https://github.com/musanziw/"}
-                    title={"Nanny link - Web"}
+                    title={"Nanny link - web"}
                              resume={"A web-based application built with Next.js and Tailwind CSS, developed to meet the unique needs of parents, facilitating seamless access to family services such as babysitting and housekeeping."}
                 />
 
                 <ProjectCard
                     link={"https://github.com/musanziw/"}
-                    title={"Church emp - API"}
+                    title={"Church emp - api"}
                              resume={"A Restful API built with NestJS. This API is used to power the EmpVille web application, providing a secure and reliable backend for the platform. The API is hosted on a dedicated server."}
                 />
                 <ProjectCard
                     link={"https://github.com/musanziw/"}
-                    title={"Church emp - Web"}
+                    title={"Church emp - web"}
                      resume={"A web-based application built with Next.js and Tailwind CSS, developed to allow members to access church events and programs, department chiefs to render their reports, and pastors to plan events, receive reports, and have an overview of church activities."}
                 />
             </div>
