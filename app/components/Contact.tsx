@@ -9,7 +9,7 @@ export default function Contact() {
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-5">
                 <li className={"text-sm"}>
                     <Link href={'https://t.me/musanziw'}
-                          className={'flex items-center gap-4 bg-neutral-700/10 rounded-xl px-3 py-3 hover:bg-zinc-900/10 transition-colors duration-300 dark:bg-zinc-500/10 dark:hover:bg-zinc-200/10'}
+                          className={'flex items-center gap-4 rounded-xl px-3 py-3 bg-neutral-200 hover:bg-neutral-300 dark:bg-zinc-300/10 dark:hover:dark:bg-zinc-100/25 ransition-colors duration-300'}
                           aria-label={'Telegram link'}>
                         <svg xmlns="http://www.w3.org/2000/svg"
                              className="bi bi-telegram w-6 h-6 fill-zinc-950 dark:fill-white"
@@ -32,7 +32,7 @@ export default function Contact() {
 
                 <li className={"text-sm"}>
                     <Link href={'https://medium.com/@musanziwilfried'} target={'_blank'}
-                          className={'flex items-center gap-4 bg-neutral-700/10 rounded-xl px-3 py-3 hover:bg-zinc-900/10 transition-colors duration-300 dark:bg-zinc-500/10 dark:hover:bg-zinc-200/10'}
+                          className={'flex items-center gap-4 rounded-xl px-3 py-3 transition-colors duration-300 bg-neutral-200 hover:bg-neutral-300 dark:bg-zinc-300/10 dark:hover:dark:bg-zinc-100/25'}
                           aria-label={'Medium link'}>
                         <svg xmlns="http://www.w3.org/2000/svg"
                              className="bi bi-medium w-6 h-6 fill-zinc-950 dark:fill-white" viewBox="0 0 16 16">
@@ -52,7 +52,7 @@ export default function Contact() {
 
                 <li className={"text-sm"}>
                     <Link href={'https://linkedin.com/in/wilfried-musanzi-197381205'}
-                          className={'flex items-center gap-4 bg-neutral-700/10 rounded-xl px-3 py-3 hover:bg-zinc-900/10 transition-colors duration-300 dark:bg-zinc-500/10 dark:hover:bg-zinc-200/10'}
+                          className={'flex items-center gap-4 rounded-xl px-3 py-3 transition-colors duration-300 bg-neutral-200 hover:bg-neutral-300 dark:bg-zinc-300/10 dark:hover:dark:bg-zinc-100/25'}
                           aria-label={'LinkdIn link'}>
                         <svg xmlns="http://www.w3.org/2000/svg"
                              className="bi bi-linkedin w-5 h-6 fill-zinc-950 dark:fill-white"
@@ -73,7 +73,7 @@ export default function Contact() {
 
                 <li className={"text-sm"}>
                     <Link href={'tel:+243979265726'}
-                          className={'flex items-center gap-4 bg-neutral-700/10 rounded-xl px-3 py-3 hover:bg-zinc-900/10 transition-colors duration-300 dark:bg-zinc-500/10 dark:hover:bg-zinc-200/10'}
+                          className={'flex items-center gap-4 rounded-xl px-3 py-3 ransition-colors duration-300 bg-neutral-200 hover:bg-neutral-300 dark:bg-zinc-300/10 dark:hover:dark:bg-zinc-100/25'}
                           aria-label={'Phone phone'}>
                         <svg xmlns="http://www.w3.org/2000/svg"
                              className="bi bi-github w-5 h-5 fill-current" viewBox="0 0 16 16">

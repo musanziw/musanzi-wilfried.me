@@ -7,7 +7,7 @@ interface ProjectCardProps {
 export default function ProjectCard({title, resume, link}: ProjectCardProps) {
     return (
         <div
-            className="flex flex-col gap-2 bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-900 p-4 rounded-md transition-colors duration-300">
+            className="flex flex-col gap-2 bg-neutral-100 hover:bg-neutral-200 dark:bg-zinc-300/10 dark:hover:dark:bg-zinc-100/25 p-4 rounded-md transition-colors duration-300">
             <a href={link} className="flex justify-between items-center mb-2">
                 <p className={"font-semibold text-zinc-950 dark:text-white"}>
                     {title}
@@ -19,7 +19,6 @@ export default function ProjectCard({title, resume, link}: ProjectCardProps) {
             <p className={"text-sm leading-5 mb-2"}>
                 {resume}
             </p>
-
         </div>
     )
 }

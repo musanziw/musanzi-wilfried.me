@@ -15,18 +15,18 @@ export default function Project() {
                 <ProjectCard
                     link={"https://github.com/musanziw/"}
                     title={"Nanny link - Web"}
-                             resume={"A web-based application built with NextJS and TailwindCSS developed to meet the unique needs of parents, facilitating seamless access to childcare services while empowering nannies with advanced tools for job management, event coordination, and comprehensive reporting. This professional-grade solution ensures efficient childcare, fostering a thriving community."}
+                             resume={"A web-based application built with Next.js and Tailwind CSS, developed to meet the unique needs of parents, facilitating seamless access to family services such as babysitting and housekeeping."}
                 />
 
                 <ProjectCard
                     link={"https://github.com/musanziw/"}
-                    title={"Church EMP - API"}
-                             resume={" A Restful API built with NestJS. This API is used to power the EmpVille web application, providing a secure and reliable backend for the platform. The API is hosted on a dedicated server."}
+                    title={"Church emp - API"}
+                             resume={"A Restful API built with NestJS. This API is used to power the EmpVille web application, providing a secure and reliable backend for the platform. The API is hosted on a dedicated server."}
                 />
                 <ProjectCard
                     link={"https://github.com/musanziw/"}
-                    title={"Church EMP - Web"}
-                    resume={"A web-based application built with NextJS and TailwindCSS developed to meet the unique needs of emp church, facilitating seamless access to events for members while empowering pastors with advanced tools for member management, event coordination, and comprehensive church reporting. This professional-grade solution ensures efficient administration, fostering a thriving church community."}
+                    title={"Church emp - Web"}
+                     resume={"A web-based application built with Next.js and Tailwind CSS, developed to allow members to access church events and programs, department chiefs to render their reports, and pastors to plan events, receive reports, and have an overview of church activities."}
                 />
             </div>
         </div>

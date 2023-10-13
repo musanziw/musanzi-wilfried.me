@@ -25,7 +25,7 @@ export default function Hero() {
                     </div>
                 </div>
                 <p className={'mt-5'}>
-                    I am a JavaScript developer with backend and frontend development knowledge with
+                    I am a JavaScript developer with knowledge in both backend and frontend development, specifically with
                     <span
                         className="ml-1 border border-neutral-300 dark:border-neutral-700 bg-neutral-100 dark:bg-neutral-800 rounded p-1 text-sm inline-flex items-center leading-4 text-neutral-900 dark:text-neutral-100">
                        <Image src={nextjs} alt={'NextJS'} className={'w-4 h-4 mr-1'}/>
@@ -35,8 +35,7 @@ export default function Hero() {
                         className="ml-1 border border-neutral-300 dark:border-neutral-700 bg-neutral-100 dark:bg-neutral-800 rounded p-1 text-sm inline-flex items-center leading-4 text-neutral-900 dark:text-neutral-100">
                        <Image src={nestjs} alt={'NestJS'} className={'w-4 h-4 mr-1'}/>
                         NestJS
-                    </span>. I am
-                    based in Lubumbashi, DRC. I am a self-taught developer with bachelor degree in computer science.
+                    </span>. I am based in Lubumbashi, DRC. I am a self-taught developer with a bachelor&lsquo;s degree in computer science.
                 </p>
             </div>
         </div>

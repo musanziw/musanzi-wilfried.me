@@ -5,8 +5,9 @@ export default function About() {
         <div className={'p-8 md:p-0 mb-10 w-full md:w-3/4 lg:w-2/5'}>
             <Heading title={"Good to know"}/>
             <p>
-                I&apos;m actually available for a job, so if you&apos;re interested in my profile, don&apos;t hesitate to contact me!
-                I&apos;m open to full-time, part-time, internship, apprenticeship, or even freelance. I work at $40 per hour.
+                I am currently available for employment and I would be delighted to hear from you if my profile aligns
+                with your requirements. I am open to opportunities in full-time, part-time, internships,
+                apprenticeships, or even freelance work. My rate is $40 per hour.
             </p>
         </div>
     )
