@@ -1,4 +1,4 @@
-## Portfolio V1
+## musanzi-wilfried.me
 
 
 ### Clone the repo
@@ -10,24 +10,14 @@ git clone https://github.com/musanziw/portfolio--v1.git
 ### Install dependencies
 
 ```bash
-yarn install
-# or 
-npm install
-# or
-pnpm install
+pnpm i
 ```
 
 ### Run dev server
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
 pnpm dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ### Build for production
 ```bash
