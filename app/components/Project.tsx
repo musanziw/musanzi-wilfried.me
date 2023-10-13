@@ -9,13 +9,13 @@ export default function Project() {
                 <ProjectCard
                     link={"https://github.com/musanziw/"}
                     title={"Nanny link"}
-                    resume={"A Restful API built with NestJS. This API is used to power the NannyLink web application, providing a secure and reliable backend for the platform and a web application built with Next.js and Tailwind CSS, developed to meet the unique needs of parents, facilitating seamless access to family services such as babysitting and housekeeping."}
+                    resume={"The NannyLink web application is built with Next.js and Tailwind CSS. It is designed to cater to the specific requirements of parents, enabling them to conveniently access various family services such as babysitting and housekeeping. The web application relies on a robust and secure backend powered by a RESTful API developed with NestJS. This API ensures the reliability and safety of the platform, providing seamless integration between the front-end interface and the necessary data and functionality. Together, the web application and the API form a comprehensive solution that aims to enhance the user experience and meet the needs of parents seeking reliable family services."}
                 />
 
                 <ProjectCard
                     link={"https://github.com/musanziw/"}
                     title={"Church emp"}
-                             resume={"A Restful API built with NestJS. This API is used to power the EmpVille web application, providing a secure and reliable backend for the platform and A web-based application built with Next.js and Tailwind CSS, developed to allow members to access church events and programs, department chiefs to render their reports, and pastors to plan events, receive reports, and have an overview of church activities."}
+                             resume={"The emp-ville web application is powered by a RESTful API built with NestJS, which serves as a secure and reliable backend for the platform. The web application itself is developed using Next.js and Tailwind CSS. It is designed to provide various functionalities to its members, including access to church events and programs. Additionally, department chiefs can utilize the application to submit their reports, while pastors can plan events, receive reports, and gain an overview of church activities. The combination of the web-based application and the NestJS API forms a comprehensive solution that enables seamless communication and efficient management of church-related tasks and activities."}
                 />
             </div>
         </div>
