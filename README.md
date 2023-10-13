@@ -4,7 +4,7 @@
 ### Clone the repo
 
 ```bash
-git clone https://github.com/musanziw/portfolio--v1.git
+git clone https://github.com/musanziw/musanzi-wilfried.me.git
 ```
 
 ### Install dependencies
