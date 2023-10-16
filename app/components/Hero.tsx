@@ -23,9 +23,9 @@ export default function Hero() {
                                     />
                                 </div>
                                 <div className="flex flex-col ml-2">
-                                    <h1 className="text-base font-bold text-zinc-950 dark:text-white">musanziw</h1>
+                                    <h1 className="text-base font-bold text-zinc-950 dark:text-white">Wil Musanzi</h1>
                                     <span
-                                        className="text-sm text-neutral-700 dark:text-gray-300">JavaScript developer</span>
+                                        className="text-sm text-neutral-700 dark:text-gray-300">@musanziw</span>
                                 </div>
                             </div>
                         </div>
