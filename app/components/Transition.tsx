@@ -4,7 +4,7 @@ import {useEffect, useState} from "react";
 import {config} from "@react-spring/web";
 import TextTransition from "@/app/utils/Text";
 
-const TEXTS = ["backend", "frontend", 'or', 'fullstack'];
+const TEXTS = ["backend", "frontend", 'fullstack'];
 
 export default function Transition() {
     const [index, setIndex] = useState(0);

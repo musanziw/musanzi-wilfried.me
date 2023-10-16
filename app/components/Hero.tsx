@@ -33,7 +33,7 @@ export default function Hero() {
                             Hey, I&lsquo;m <strong>Wilfried</strong>
                         </h1>
                         <h1 className={`font-semibold text-xl text-stone-600 dark:text-neutral-200`}>
-                            I build things for the web, <Transition />
+                            I build both <Transition />
                         </h1>
                     </div>
                 </div>
