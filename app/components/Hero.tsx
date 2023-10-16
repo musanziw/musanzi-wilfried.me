@@ -15,14 +15,14 @@ export default function Hero() {
                     <div className="flex justify-between items-start">
                         <div className="flex items-center gap-3 mb-8">
                             <div className="container overflow-hidden flex flex-row">
-                                <div className="rounded-full overflow-hidden w-[4rem] h-[4rem] ">
+                                <div className="rounded-full overflow-hidden w-[3rem] h-[3rem] ">
                                     <Image
                                         src={me}
                                         alt="Musanzi wilfried"
                                         className="grayscale"
                                     />
                                 </div>
-                                <div className="flex flex-col ml-2 mt-2">
+                                <div className="flex flex-col ml-2">
                                     <h1 className="text-base font-bold text-zinc-950 dark:text-white">musanziw</h1>
                                     <span className="text-sm text-neutral-700 dark:text-gray-300">JavaScript developer</span>
                                 </div>
