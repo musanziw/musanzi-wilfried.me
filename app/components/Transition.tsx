@@ -18,16 +18,15 @@ export default function Transition() {
     }, []);
 
     return (
-        <span className="ml-1">
+        <>
             <span className="text-zinc-950 font-bold dark:text-white">
-                  <TextTransition inline springConfig={config.gentle}>
-                {TEXTS[index % TEXTS.length]}
-              </TextTransition>
+                <TextTransition inline springConfig={config.gentle}>
+                    {TEXTS[index % TEXTS.length]}
+                </TextTransition>
             </span>
-
-               <span className={'ml-1 font-medium'}>
+            <span className={'ml-1 font-medium'}>
                     apps.
-               </span>
-        </span>
+            </span>
+        </>
     );
 }
