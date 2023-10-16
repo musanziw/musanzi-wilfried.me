@@ -24,10 +24,9 @@ export default function Hero() {
                                 </div>
                                 <a href={'https://github.com/musanziw'} target={'_blank'} className="flex flex-col ml-2">
                                     <span className="text-base font-bold text-zinc-950 dark:text-white">
-                                        About me</span>
-                                    <span
-                                        className="text-sm text-neutral-700 dark:text-gray-300">
-                                        Self thoughts
+                                        Github/musanziw</span>
+                                    <span className="text-sm dark:text-gray-300">
+                                        github.com/musanziw
                                     </span>
                                 </a>
                             </div>
