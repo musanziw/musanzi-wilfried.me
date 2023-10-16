@@ -33,15 +33,13 @@ export default function Hero() {
                             Hey, I&lsquo;m <strong>Wilfried</strong>
                         </h1>
                         <h1 className={`font-semibold text-xl text-stone-600 dark:text-neutral-200`}>
-                            I build things for the web
+                            I build things for the web, <Transition />
                         </h1>
                     </div>
                 </div>
                 <p className={'mt-5'}>
-                    I am a JavaScript developer with
-                    <Transition /> development knowledge
-                    , specifically
-                    with
+                    I am a JavaScript developer with backend and frontend development knowledge, specifically
+                    using
                     <span
                         className="ml-1 border border-neutral-300 dark:border-neutral-700 bg-neutral-100 dark:bg-neutral-800 rounded p-1 text-sm inline-flex items-center leading-4 text-neutral-900 dark:text-neutral-100">
                        <Image src={nextjs} alt={'NextJS'} className={'w-4 h-4 mr-1'}/>

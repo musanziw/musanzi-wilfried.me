@@ -4,7 +4,7 @@ import {useEffect, useState} from "react";
 import {config} from "@react-spring/web";
 import TextTransition from "@/app/utils/Text";
 
-const TEXTS = ["backend", "and", "frontend"];
+const TEXTS = ["backend", "frontend", 'or', 'fullstack'];
 
 export default function Transition() {
     const [index, setIndex] = useState(0);
@@ -18,10 +18,16 @@ export default function Transition() {
     }, []);
 
     return (
-        <span className="ml-2 text-white">
-              <TextTransition inline springConfig={config.gentle}>
+        <span className="ml-1">
+            <span className="text-zinc-950 font-bold dark:text-white">
+                  <TextTransition inline springConfig={config.gentle}>
                 {TEXTS[index % TEXTS.length]}
               </TextTransition>
+            </span>
+
+               <span className={'ml-1 font-medium'}>
+                    apps.
+               </span>
         </span>
     );
 }

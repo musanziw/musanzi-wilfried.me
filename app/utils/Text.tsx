@@ -67,21 +67,15 @@ function TextTransition(props: PropsWithChildren<TextTransitionProps>) {
     });
 
     return (
-        <animated.div
-            className={`text-transition text-zinc-950 dark:text-white font-semibold ${className}`}
-            style={{
-                ...(inline && !initialRun.current ? widthTransition : undefined),
-                ...style,
-                whiteSpace: inline ? "nowrap" : "normal",
-                display: inline ? "inline-flex" : "flex",
-                height: heightRef.current,
-            }}
-        >
+        <animated.div className={`text-transition text-zinc-950 font-bold dark:text-white ${className}`} style={{
+            ...(inline && !initialRun.current ? widthTransition : undefined),
+            ...style,
+            whiteSpace: inline ? "nowrap" : "normal",
+            display: inline ? "inline-flex" : "flex",
+            height: heightRef.current,
+        }}>
             {transitions((styles, item) => (
-                <animated.div
-                    style={{...styles}}
-                    ref={item === children ? currentRef : undefined}
-                >
+                <animated.div style={{...styles}} ref={item === children ? currentRef : undefined}>
                     {item}
                 </animated.div>
             ))}
