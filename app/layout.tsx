@@ -1,6 +1,6 @@
 import './globals.css'
-import type {Metadata} from 'next'
-import {DM_Sans} from 'next/font/google'
+import type { Metadata } from 'next'
+import { DM_Sans } from 'next/font/google'
 import React from "react";
 
 
@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     keywords: 'Wilfried Musanzi',
 }
 
-export default function RootLayout({children}: { children: React.ReactNode }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en">
-        <body
-            className={`bg-neutral-50 text-zinc-900 ${dmSans.className} dark:bg-zinc-800 dark:text-neutral-100 transition-colors ease-linear duration-100`}>
-        {children}
-        </body>
+            <body
+                className={`bg-neutral-50 text-zinc-900 ${dmSans.className} dark:bg-zinc-900 dark:text-neutral-100 transition-colors ease-linear duration-100`}>
+                {children}
+            </body>
         </html>
     )
 }
