@@ -1,9 +1,11 @@
-import me from '@/app/images/me.webp'
 import Image from "next/image";
 import ThemeSwitcher from "@/app/utils/ThemeSwitcher";
-import nextjs from '@/app/images/nextjs.svg'
-import nestjs from '@/app/images/nestjs.png'
 import Transition from "@/app/components/Transition";
+
+import me from '@/public/me.webp'
+import nextjs from '@/public/nextjs.svg'
+import nestjs from '@/public/nestjs.png'
+
 
 export default function Hero() {
     return (

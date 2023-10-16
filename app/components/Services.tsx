@@ -1,8 +1,8 @@
-import db from '@/app/images/db.png'
+import db from '@/public/db.png'
 import Heading from "../utils/Heading";
 import Image from "next/image";
-import nextjs from '@/app/images/nextjs.svg'
-import nest from '@/app/images/nestjs.png'
+import nextjs from '@/public/nextjs.svg'
+import nest from '@/public/nestjs.png'
 
 export default function Services() {
     return (
@@ -11,7 +11,7 @@ export default function Services() {
             <div className="grid grid-cols-1 mt-10 gap-7 items-center">
                 <div
                     className="z-0 relative flex flex-col gap-3 py-4 px-6">
-                    <div className="z-10 absolute -top-4 -left-2">
+                    <div className="z-10 absolute -top-4 -left-2 bg-teal-300 rounded-full">
                         <Image src={nextjs} alt={'nextjs'} className={'w-8 h-8'}/>
                     </div>
                     <h5 className={'font-semibold'}>Frontend development</h5>

@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="en">
             <body
-                className={`bg-neutral-50 text-zinc-900 ${dmSans.className} dark:bg-zinc-900 dark:text-neutral-100 transition-colors ease-linear duration-100`}>
+                className={`bg-neutral-50 text-zinc-900 ${dmSans.className} dark:bg-[#0A0A0B] dark:text-neutral-100 transition-colors ease-linear duration-100`}>
                 {children}
             </body>
         </html>
