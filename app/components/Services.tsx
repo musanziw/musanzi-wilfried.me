@@ -8,9 +8,9 @@ export default function Services() {
     return (
         <div className={'p-8 md:p-0 mb-16 w-full md:w-3/4 lg:w-2/5'}>
             <Heading title={"Services"}/>
-            <div className="grid grid-cols-1 gap-7 items-center">
+            <div className="grid grid-cols-1 mt-10 gap-7 items-center">
                 <div
-                    className="z-0 relative flex flex-col gap-3 rounded-md border border-neutral-300 hover:border-neutral-400 dark:border-neutral-600 dark:hover:border-neutral-500 py-4 px-6 transition-colors duration-300">
+                    className="z-0 relative flex flex-col gap-3 py-4 px-6">
                     <div className="z-10 absolute -top-4 -left-2">
                         <Image src={nextjs} alt={'nextjs'} className={'w-8 h-8'}/>
                     </div>
@@ -23,7 +23,7 @@ export default function Services() {
                 </div>
 
                 <div
-                    className="z-0 relative flex flex-col gap-3 rounded-md border border-neutral-300 hover:border-neutral-400 dark:border-neutral-600 dark:hover:border-neutral-500 py-4 px-6 transition-colors duration-300">
+                    className="z-0 relative flex flex-col gap-3 py-4 px-6">
                     <div className="z-10 absolute -top-4 -left-2 rounded-full overflow-hidden">
                         <Image src={nest} alt={'nextjs'} className={'w-8 h-8'}/>
                     </div>
@@ -36,8 +36,8 @@ export default function Services() {
                 </div>
 
                 <div
-                    className="z-0 relative flex flex-col gap-3 rounded-md border border-neutral-300 hover:border-neutral-400 dark:border-neutral-600 dark:hover:border-neutral-500 py-4 px-6 transition-colors duration-300">
-                    <div className="z-10 absolute -top-4 -left-2 -rotate-45 rounded-full overflow-hidden">
+                    className="z-0 relative flex flex-col gap-3 py-4 px-6">
+                    <div className="z-10 absolute -top-4 -left-2 rounded-full overflow-hidden">
                         <Image src={db} alt={'nextjs'} className={'w-8 h-8'}/>
                     </div>
                     <h5 className={'font-semibold'}>Sotware modeling</h5>
