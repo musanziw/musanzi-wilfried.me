@@ -31,14 +31,14 @@ export default function Hero() {
                                 </div>
                             </div>
                         </div>
-                        <ThemeSwitcher />
+                        <ThemeSwitcher/>
                     </div>
                     <div className="">
                         <h1 className={`text-2xl font-extrabold text-zinc-950 dark:text-white mb-1`}>
                             Hey, I&lsquo;m <strong>Wilfried</strong>
                         </h1>
                         <h1 className={`font-semibold text-xl text-stone-600 dark:text-neutral-200`}>
-                            I build both <Transition /> apps.
+                            I build both <Transition/> apps.
                         </h1>
                     </div>
                 </div>
@@ -46,15 +46,17 @@ export default function Hero() {
                     I am a JavaScript developer with backend and frontend development knowledge, specifically
                     using
                     <span
-                        className="ml-1 border border-neutral-300 dark:border-neutral-700 bg-neutral-100 dark:bg-neutral-800 rounded p-1 text-sm inline-flex items-center leading-4 text-neutral-900 dark:text-neutral-100">
-                        <Image src={nextjs} alt={'NextJS'} className={'w-4 h-4 mr-1 dark:fill-white'} />
-                        NextJS
-                    </span> and
+                        className="ml-1 mr-1 border border-neutral-300 dark:border-neutral-700 bg-neutral-100 dark:bg-neutral-800 rounded p-1 text-sm inline-flex items-center leading-4 text-neutral-900 dark:text-neutral-100">
+                        <Image src={nestjs} alt={'NestJS'} className={'w-4 h-4 mr-1 rounded-full'}/>
+                        NestJS
+                    </span>
+                    and
                     <span
                         className="ml-1 border border-neutral-300 dark:border-neutral-700 bg-neutral-100 dark:bg-neutral-800 rounded p-1 text-sm inline-flex items-center leading-4 text-neutral-900 dark:text-neutral-100">
-                        <Image src={nestjs} alt={'NestJS'} className={'w-4 h-4 mr-1 rounded-full'} />
-                        NestJS
-                    </span>. I am based in Lubumbashi, DRC. I am a self-taught developer with a bachelor&lsquo;s degree
+                        <Image src={nextjs} alt={'NextJS'} className={'w-4 h-4 mr-1 dark:fill-white'}/>
+                        NextJS
+                    </span>.
+                    I am based in Lubumbashi, DRC. I am a self-taught developer with a bachelor&lsquo;s degree
                     in computer science.
                 </p>
             </div>
