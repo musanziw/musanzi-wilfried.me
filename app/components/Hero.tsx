@@ -22,13 +22,13 @@ export default function Hero() {
                                         className="grayscale"
                                     />
                                 </div>
-                                <a href={'https://github.com/musanziw'} target={'_blank'} className="flex flex-col ml-2">
+                                <div className="flex flex-col ml-2">
                                     <span className="text-base font-bold text-zinc-950 dark:text-white">
-                                        github.com</span>
+                                        Wilfried M.</span>
                                     <span className="text-sm dark:text-gray-300">
                                         @musanziw
                                     </span>
-                                </a>
+                                </div>
                             </div>
                         </div>
                         <ThemeSwitcher />
