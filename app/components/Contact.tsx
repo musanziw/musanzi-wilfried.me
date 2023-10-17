@@ -80,10 +80,10 @@ export default function Contact() {
                         </svg>
                         <div className="flex flex-col gap-1">
                             <p className={"text-zinc-950 dark:text-white"}>
-                                Github
+                                Phone
                             </p>
                             <p className="text-xs">
-                                musanziw
+                                +243 979 265 726
                             </p>
                         </div>
                     </Link>
