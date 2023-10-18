@@ -10,7 +10,7 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
     title: 'Wilfried Musanzi — Portfolio',
-    description: 'JavaScript Developer • NextJS • NestJS`',
+    description: 'JavaScript Developer • NextJS • NestJS',
     keywords: 'Wilfried Musanzi',
 }
 
