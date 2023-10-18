@@ -8,7 +8,7 @@ export default function Project() {
             <div className="flex flex-col items-center gap-10">
                 <ProjectCard
                     link={"https://github.com/musanziw/"}
-                    title={"Home link"}
+                    title={"Home help"}
                     resume={"The home link web application is built with Next.js and Tailwind CSS. It is designed to cater to the specific requirements of parents, enabling them to conveniently access various family services such as babysitting and housekeeping. The web application relies on a robust and secure backend powered by a RESTful API developed with NestJS. This API ensures the reliability and safety of the platform, providing seamless integration between the front-end interface and the necessary data and functionality. Together, the web application and the API form a comprehensive solution that aims to enhance the user experience and meet the needs of parents seeking reliable family services."}
                 />
 
